@@ -13,4 +13,10 @@ describe('calculator', () => {
             assert.equal(result, 1);
         });
     });
+    describe('multiply function', () => {
+        it('multiplies numbers', () => {
+            let result = calculator.mult(1, 1);
+            assert.equal(result, 1);
+        });
+    });
 });
