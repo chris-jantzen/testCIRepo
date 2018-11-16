@@ -9,7 +9,7 @@ describe('calculator', () => {
     });
     describe('subtract function', () => {
         it('subtracts numbers', () => {
-            let result = calculator.subtract(2, 1);
+            let result = calculator.sub(2, 1);
             assert.equal(result, 1);
         });
     });
